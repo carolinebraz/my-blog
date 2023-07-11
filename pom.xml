@@ -41,11 +41,16 @@
 			<artifactId>mysql-connector-j</artifactId>
 			<scope>runtime</scope>
 		</dependency>
-		<!-- Dependência do Banco de dados H2 -->
+		<!-- Dependência do Banco de dados H2 para testes -->
 		<dependency>
 			<groupId>com.h2database</groupId>
 			<artifactId>h2</artifactId>
 			<scope>test</scope>
+		</dependency>
+		<!-- Dependência do Banco de dados PostgreSQL para deploy no Render -->
+		<dependency>
+			<groupId>org.postgresql</groupId>
+			<artifactId>postgresql</artifactId>
 		</dependency>
 		<!-- Dependência de Testes -->
 		<dependency>
